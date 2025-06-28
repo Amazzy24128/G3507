@@ -77,7 +77,7 @@ my_includes/my_scheduler.o: ../my_includes/my_scheduler.c \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_interrupt.h \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_systick.h \
  ../my_includes/my_led.h ../my_includes/my_uwtick.h \
- ../my_includes/key.h
+ ../my_includes/key.h ../my_includes/PWM.h
 ../my_includes/my_scheduler.h:
 ti_msp_dl_config.h:
 C:/ti/mspm0_sdk_2_05_00_05/source/ti/devices/msp/msp.h:
@@ -156,3 +156,4 @@ C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_systick.h:
 ../my_includes/my_led.h:
 ../my_includes/my_uwtick.h:
 ../my_includes/key.h:
+../my_includes/PWM.h:

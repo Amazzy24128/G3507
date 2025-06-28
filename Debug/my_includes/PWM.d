@@ -1,7 +1,6 @@
 # FIXED
 
-empty.o: ../empty.c \
- C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_uwtick.h \
+my_includes/PWM.o: ../my_includes/PWM.c ../my_includes/PWM.h \
  ti_msp_dl_config.h \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/devices/DeviceFamily.h \
@@ -75,13 +74,8 @@ empty.o: ../empty.c \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/dl_vref.h \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/dl_wwdt.h \
  C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_interrupt.h \
- C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_systick.h \
- C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_scheduler.h \
- C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_led.h \
- C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/key.h \
- C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/PWM.h \
- C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_uart.h
-C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_uwtick.h:
+ C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_systick.h
+../my_includes/PWM.h:
 ti_msp_dl_config.h:
 C:/ti/mspm0_sdk_2_05_00_05/source/ti/devices/msp/msp.h:
 C:/ti/mspm0_sdk_2_05_00_05/source/ti/devices/DeviceFamily.h:
@@ -156,8 +150,3 @@ C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/dl_vref.h:
 C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/dl_wwdt.h:
 C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_interrupt.h:
 C:/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/m0p/dl_systick.h:
-C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_scheduler.h:
-C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_led.h:
-C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/key.h:
-C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/PWM.h:
-C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_uart.h:

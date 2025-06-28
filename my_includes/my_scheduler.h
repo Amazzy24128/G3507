@@ -4,6 +4,7 @@
 #include "ti_msp_dl_config.h"
 #include "my_led.h"
 #include "key.h"
+#include "PWM.h"
 typedef struct {
   void (*task_func)(void);
   uint32_t rate_ms;

@@ -12,6 +12,8 @@
 const GPIO    = scripting.addModule("/ti/driverlib/GPIO", {}, false);
 const GPIO1   = GPIO.addInstance();
 const GPIO2   = GPIO.addInstance();
+const PWM     = scripting.addModule("/ti/driverlib/PWM", {}, false);
+const PWM1    = PWM.addInstance();
 const SYSCTL  = scripting.addModule("/ti/driverlib/SYSCTL");
 const SYSTICK = scripting.addModule("/ti/driverlib/SYSTICK");
 const UART    = scripting.addModule("/ti/driverlib/UART", {}, false);
@@ -39,13 +41,25 @@ GPIO2.associatedPins[0].direction        = "INPUT";
 GPIO2.associatedPins[0].assignedPin      = "18";
 GPIO2.associatedPins[0].internalResistor = "PULL_DOWN";
 
+PWM1.$name                      = "PWM_0";
+PWM1.timerStartTimer            = true;
+PWM1.clockDivider               = 8;
+PWM1.ccIndex                    = [0];
+PWM1.ccIndexCmpl                = [0];
+PWM1.pwmMode                    = "EDGE_ALIGN_UP";
+PWM1.PWM_CHANNEL_0.$name        = "ti_driverlib_pwm_PWMTimerCC0";
+PWM1.ccp0PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric2";
+PWM1.peripheral.ccp0Pin.$assign = "PA0";
+PWM1.ccp0Pin_cmplConfig.$name   = "ti_driverlib_gpio_GPIOPinGeneric3";
+
 SYSCTL.forceDefaultClkConfig = true;
 SYSCTL.clockTreeEn           = true;
 
-SYSTICK.periodEnable    = true;
-SYSTICK.interruptEnable = true;
-SYSTICK.systickEnable   = true;
-SYSTICK.period          = 32000;
+SYSTICK.periodEnable      = true;
+SYSTICK.interruptEnable   = true;
+SYSTICK.systickEnable     = true;
+SYSTICK.period            = 32000;
+SYSTICK.interruptPriority = "0";
 
 UART1.$name                    = "UART_0";
 UART1.uartClkSrc               = "MFCLK";
@@ -63,8 +77,10 @@ UART1.rxPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric1";
  * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
  * re-solve from scratch.
  */
-GPIO1.associatedPins[0].pin.$suggestSolution = "PB22";
-Board.peripheral.$suggestSolution            = "DEBUGSS";
-Board.peripheral.swclkPin.$suggestSolution   = "PA20";
-Board.peripheral.swdioPin.$suggestSolution   = "PA19";
-GPIO2.associatedPins[0].pin.$suggestSolution = "PA18";
+GPIO1.associatedPins[0].pin.$suggestSolution  = "PB22";
+Board.peripheral.$suggestSolution             = "DEBUGSS";
+Board.peripheral.swclkPin.$suggestSolution    = "PA20";
+Board.peripheral.swdioPin.$suggestSolution    = "PA19";
+GPIO2.associatedPins[0].pin.$suggestSolution  = "PA18";
+PWM1.peripheral.$suggestSolution              = "TIMA0";
+PWM1.peripheral.ccp0Pin_cmpl.$suggestSolution = "PA22";

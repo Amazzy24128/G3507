@@ -13,6 +13,7 @@ ORDERED_OBJS += \
 "./empty.o" \
 "./ti_msp_dl_config.o" \
 "./startup_mspm0g350x_ticlang.o" \
+"./my_includes/PWM.o" \
 "./my_includes/key.o" \
 "./my_includes/my_led.o" \
 "./my_includes/my_scheduler.o" \
@@ -150,8 +151,8 @@ empty_LP_MSPM0G3507_nortos_ticlang.out: $(OBJS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "empty.o" "ti_msp_dl_config.o" "startup_mspm0g350x_ticlang.o" "my_includes\key.o" "my_includes\my_led.o" "my_includes\my_scheduler.o" "my_includes\my_uart.o" "my_includes\my_uwtick.o" 
-	-$(RM) "empty.d" "ti_msp_dl_config.d" "startup_mspm0g350x_ticlang.d" "my_includes\key.d" "my_includes\my_led.d" "my_includes\my_scheduler.d" "my_includes\my_uart.d" "my_includes\my_uwtick.d" 
+	-$(RM) "empty.o" "ti_msp_dl_config.o" "startup_mspm0g350x_ticlang.o" "my_includes\PWM.o" "my_includes\key.o" "my_includes\my_led.o" "my_includes\my_scheduler.o" "my_includes\my_uart.o" "my_includes\my_uwtick.o" 
+	-$(RM) "empty.d" "ti_msp_dl_config.d" "startup_mspm0g350x_ticlang.d" "my_includes\PWM.d" "my_includes\key.d" "my_includes\my_led.d" "my_includes\my_scheduler.d" "my_includes\my_uart.d" "my_includes\my_uwtick.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

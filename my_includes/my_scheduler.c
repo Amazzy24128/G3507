@@ -1,9 +1,9 @@
 #include "my_scheduler.h"
 
 static scheduler_task_t tasks[] = {
-    //{toggle_led_proc, 200, 0},
     {key_proc, 50, 0},
-    {toggle_led_proc, 200, 0}
+    {toggle_led_proc, 200, 0},
+    {PWM_proc, 10, 0}
 };
 
 uint16_t task_count = sizeof(tasks) / sizeof(tasks[0]);
