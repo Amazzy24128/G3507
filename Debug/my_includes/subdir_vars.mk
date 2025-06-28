@@ -6,6 +6,7 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../my_includes/MPU6050.c \
 ../my_includes/PWM.c \
 ../my_includes/key.c \
 ../my_includes/my_led.c \
@@ -14,6 +15,7 @@ C_SRCS += \
 ../my_includes/my_uwtick.c 
 
 C_DEPS += \
+./my_includes/MPU6050.d \
 ./my_includes/PWM.d \
 ./my_includes/key.d \
 ./my_includes/my_led.d \
@@ -22,6 +24,7 @@ C_DEPS += \
 ./my_includes/my_uwtick.d 
 
 OBJS += \
+./my_includes/MPU6050.o \
 ./my_includes/PWM.o \
 ./my_includes/key.o \
 ./my_includes/my_led.o \
@@ -30,6 +33,7 @@ OBJS += \
 ./my_includes/my_uwtick.o 
 
 OBJS__QUOTED += \
+"my_includes\MPU6050.o" \
 "my_includes\PWM.o" \
 "my_includes\key.o" \
 "my_includes\my_led.o" \
@@ -38,6 +42,7 @@ OBJS__QUOTED += \
 "my_includes\my_uwtick.o" 
 
 C_DEPS__QUOTED += \
+"my_includes\MPU6050.d" \
 "my_includes\PWM.d" \
 "my_includes\key.d" \
 "my_includes\my_led.d" \
@@ -46,6 +51,7 @@ C_DEPS__QUOTED += \
 "my_includes\my_uwtick.d" 
 
 C_SRCS__QUOTED += \
+"../my_includes/MPU6050.c" \
 "../my_includes/PWM.c" \
 "../my_includes/key.c" \
 "../my_includes/my_led.c" \

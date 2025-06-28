@@ -12,11 +12,6 @@
    {
       "directory" : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug",
       "command"   : "clang++ -D__MSPM0G3507__ -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/lib/clang/18/include\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c\" -xc",
-      "file"      : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_led.c"
-   },
-   {
-      "directory" : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug",
-      "command"   : "clang++ -D__MSPM0G3507__ -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/lib/clang/18/include\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c\" -xc",
       "file"      : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_scheduler.c"
    },
    {
@@ -38,5 +33,15 @@
       "directory" : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug",
       "command"   : "clang++ -D__MSPM0G3507__ -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/lib/clang/18/include\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c\" -xc",
       "file"      : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/PWM.c"
+   },
+   {
+      "directory" : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/lib/clang/18/include\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c\" -xc",
+      "file"      : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/MPU6050.c"
+   },
+   {
+      "directory" : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_05_00_05/source\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c++/v1\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/lib/clang/18/include\" -isystem\"D:/TI_IDE/ccs/tools/compiler/ti-cgt-armllvm_4.0.3.LTS/include/c\" -xc",
+      "file"      : "C:/Users/AMZ/workspace_ccstheia/empty_LP_MSPM0G3507_nortos_ticlang/my_includes/my_led.c"
    }
 ]
